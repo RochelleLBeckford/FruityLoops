@@ -23,6 +23,7 @@ public class MainController {
         fruits.add(new Item("Guava", .75));
         
         // Add fruits your view model here
+        // -> the first element in model.addAttribute is the name of your variable in jsp page
         model.addAttribute("fruits", fruits);
         return "index.jsp";
     }

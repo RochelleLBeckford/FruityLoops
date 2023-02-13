@@ -33,6 +33,12 @@
                     <th>Price</th>
                 </tr>
                 <!--~ Since the data in the table row will repeat will use a for loop housing the <tr> nad <td>-->
+                        <!--  
+                            -> var is variable of iteration  -> can be anything
+                            -> items is the fruits passed from the model.addAttribute
+                            -> naming convention -> make sure person coming after you reading your code knows what you are trying to do 
+                            -> the first element in model.addAttribute is the name of your variable in jsp page
+                        -->
                 <c:forEach var="fruit" items="${fruits}">
                         <tr>
                             <td><c:out value="${fruit.name}"></c:out></td>
