@@ -1,5 +1,5 @@
 package com.rochelle.fruity_loops.controllers;
-//? Pair programming -> Dominic Bass
+//? Pair programming -> Dominic Basa
 
 import java.util.ArrayList;
 import org.springframework.stereotype.Controller;
